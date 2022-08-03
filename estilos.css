@@ -1,0 +1,12 @@
+*{
+    margin:0%;
+    padding: 0%;
+
+}
+.colorNav{
+    background-color: rgb(170, 235, 235);
+
+}
+.body{
+    background-image: url(./img/imagen-de-fondo.jpg);
+}
