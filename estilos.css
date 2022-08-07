@@ -3,10 +3,40 @@
     padding: 0%;
 
 }
-.colorNav{
-    background-color: rgb(170, 235, 235);
+body{
+     font-family: 'Bebas Neue';
+     overflow-x: hidden;
+     color: rgb(31, 112, 225) ;
+     background-image: url(./img/imagen-de-fondo.jpg);
+}
+/* menu */
+#menu a{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(17, 92, 146);
+
+} 
+#menu button{ 
+    font-size: 18px;
+    font-weight: bold;
 
 }
-.body{
-    background-image: url(./img/imagen-de-fondo.jpg);
+/* imagenes menu */
+.carousel-inner{
+    max-height:  30rem;
+} 
+@media (max-width:768px){
+    #intro #equipo{
+        width: 90%;
+    }
+    .servicio-fila{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:576){
+    .icono-warp{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
