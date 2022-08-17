@@ -1,0 +1,38 @@
+*{
+    margin:0%;
+    padding: 0%;
+
+}
+body{
+     font-family: 'Bebas Neue';
+     overflow-x: hidden;
+     color: rgb(31, 112, 225) ;
+     background-image: url(./img/imagen-de-fondo.jpg);
+    #menu{
+        a{
+            font-size: 18px;
+            font-weight: bold;
+            color: rgb(17, 92, 146);
+        }
+        button{ 
+            font-size: 18px;
+            font-weight: bold;
+    } 
+    }
+    .carousel-inner{
+        max-height:  30rem;
+
+     }
+     @media (max-width:768px){
+        #intro #equipo{
+            width: 90%;
+        }
+        .servicio-fila{
+            width: 100%;
+            text-align: center;
+        }
+        
+
+        }
+
+     }

@@ -1,0 +1,20 @@
+{
+  "name": "criptomomento",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:csss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Federi351612/Practica-Bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Federi351612/Practica-Bootstrap/issues"
+  },
+  "homepage": "https://github.com/Federi351612/Practica-Bootstrap#readme"
+}
